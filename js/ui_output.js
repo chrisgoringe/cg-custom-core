@@ -1,6 +1,6 @@
-import { app } from "../../../scripts/app.js";
-import { api } from "../../../scripts/api.js";
-import { ComfyWidgets } from "../../../scripts/widgets.js";
+import { app } from "../../scripts/app.js";
+import { api } from "../../scripts/api.js";
+import { ComfyWidgets } from "../../scripts/widgets.js";
 import { registerUiOutputListener } from "./ui_output_dispatch.js";
 
 function terminate_function(message) { 
